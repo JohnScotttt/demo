@@ -12,7 +12,7 @@ from models.cnn import Net
 
 
 parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
-parser.add_argument('--datapath', required=True, help='data path')
+parser.add_argument('--datapath', required=True, help='data path,下载数据集：链接：https://pan.baidu.com/s/18Fz9Cpj0Lf9BC7As8frZrw 提取码：xhgk')
 parser.add_argument('--batch_size', type=int, default=256, help='training batch size')
 parser.add_argument('--epochs', type=int, default=30, help='number of epochs to train')
 parser.add_argument('--use_cuda', default=True, help='using CUDA for training')
